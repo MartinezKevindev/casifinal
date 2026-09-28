@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3er Año - Bachillerato en Turismo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Servicios <span>Turísticos</span></h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="primer-año.html"><i class="fa-solid fa-school"></i> 1er Año</a></li>
+                <li><a href="segundo-año.html"><i class="fa-solid fa-school"></i> 2do Año</a></li>
+                <li><a href="tercer-año.html" class="active"><i class="fa-solid fa-school"></i> 3er Año</a></li>
+                <li><a href="Galeria.html"><i class="fa-solid fa-images"></i> Galería</a></li>
+                <li><a href="contactanos.html"><i class="fa-solid fa-phone"></i> Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="contenido">
+            <h2>Tercer Año de Bachillerato en Turismo</h2>
+            <p>Especialización profesional, proyectos emprendedores y prácticas técnicas supervisadas en el sector turístico.</p>
+            <a href="#modulos" class="boton">Ver módulos de 3er Año</a>
+        </div>
+    </section>
+
+    <section id="informacion" class="seccion">
+        <h2>Información de 3er Año</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3><i class="fa-solid fa-briefcase"></i> Prácticas Profesionales</h3>
+                <p>Inserción directa en empresas del sector para aplicar competencias en hoteles, agencias y entidades turísticas.</p>
+            </div>
+            <div class="tarjeta">
+                <h3><i class="fa-solid fa-award"></i> Titulación Técnica</h3>
+                <p>Fase final de especialización donde desarrollarás tu proyecto de graduación y perfil profesional de egreso.</p>
+            </div>
+            <div class="tarjeta">
+                <h3><i class="fa-solid fa-lightbulb"></i> Emprendimiento</h3>
+                <p>Formación especializada en la formulación y evaluación de proyectos de negocios turísticos sostenibles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="modulos" class="seccion">
+        <h2>Módulos de Tercer Año</h2>
+        <p class="subtitulo-seccion">Conoce la descripción, competencias y herramientas de cada módulo oficial del MINED:</p>
+
+        <div class="contenedor-materias">
+
+            <!-- Módulo 3.0 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Orientación | 30 Horas (1 Sem.)</div>
+                    <h3>Orientación de estudiantes al 3er Año</h3>
+                    <p class="descripcion">Consolidación de la metodología de proyectos orientados a la acción para la fase final del bachillerato técnico.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Consolidar los conocimientos del aprendizaje orientado a la acción para el proyecto de graduación.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>Módulo guía</span>
+                        <span>Proyectos</span>
+                        <span>Plan de vida</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(0)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.1 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.1 | 210 Horas (7 Sem.)</div>
+                    <h3>Diseño y Ejecución de Paquetes Turísticos</h3>
+                    <p class="descripcion">Diseño, cotización, comercialización y ejecución de itinerarios y paquetes turísticos integrales.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Identificar tendencias del mercado, consolidar proveedores y operar tours guiados.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>GDS</span>
+                        <span>Itinerarios</span>
+                        <span>Costeo</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(1)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.2 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.2 | 150 Horas (5 Sem.)</div>
+                    <h3>Software y Redes Sociales en Turismo</h3>
+                    <p class="descripcion">Uso de tecnologías de información, redes sociales y software especializado en la gestión turística.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Manejar sistemas informáticos turísticos y posicionar marcas en plataformas digitales.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>Software hotelero</span>
+                        <span>Redes sociales</span>
+                        <span>Amadeus</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(2)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.3 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.3 | 210 Horas (7 Sem.)</div>
+                    <h3>Promoción y Comercialización Turística</h3>
+                    <p class="descripcion">Desarrollo e implementación de campañas de promoción y estrategias comerciales para productos y destinos.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Implementar campañas comerciales y diseñar estrategias de venta para atraer clientes.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>Material POP</span>
+                        <span>Sistemas CRM</span>
+                        <span>Ventas</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(3)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.4 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.4 | 150 Horas (5 Sem.)</div>
+                    <h3>Evaluación de Servicios Turísticos</h3>
+                    <p class="descripcion">Aplicación de instrumentos de medición y estándares de calidad para auditar empresas del sector.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Diseñar y aplicar listas de auditoría y normas internacionales para asegurar la calidad.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>Auditorías</span>
+                        <span>Normas ISO</span>
+                        <span>Encuestas</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(4)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.5 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.5 | 120 Horas (4 Sem.)</div>
+                    <h3>Gestión de Compras e Inventarios</h3>
+                    <p class="descripcion">Control de inventarios, costeo de materias primas y aprovisionamiento en empresas turísticas.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Controlar inventarios, ejecutar procesos de aprovisionamiento y costear materia prima.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>Inventario PEPS</span>
+                        <span>Kardex</span>
+                        <span>Compras</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(5)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.6 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.6 | 90 Horas (3 Sem.)</div>
+                    <h3>Inglés para Administración Turística</h3>
+                    <p class="descripcion">Desarrollo de habilidades de comunicación oral y escrita para negociaciones en el sector.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Sostener conversaciones fluidas de negocios y negociar servicios turísticos en inglés.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>Negociación</span>
+                        <span>Inglés técnico</span>
+                        <span>Contratos</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(6)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.7 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.7 | 90 Horas (3 Sem.)</div>
+                    <h3>Puesta en Marcha de la Microempresa</h3>
+                    <p class="descripcion">Ejecución de las operaciones iniciales y legales para constituir microempresas asociativas.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Ejecutar trámites legales y la apertura operativa formal de proyectos cooperativos.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>INSAFOCOOP</span>
+                        <span>Estatutos</span>
+                        <span>Legalización</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(7)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 3.8 -->
+            <div class="modulo-card">
+                <div>
+                    <div class="badge-modulo">Módulo 3.8 | 150 Horas (5 Sem.)</div>
+                    <h3>Proyecto: Plan de Mercadeo Turístico</h3>
+                    <p class="descripcion">Desarrollo de un plan estratégico de mercadeo para MIPE o destinos con enfoque sostenible.</p>
+                    <h4>Competencias</h4>
+                    <p class="competencia">Formular y evaluar un plan estratégico de mercadeo adaptado a necesidades reales.</p>
+                    <h4>Herramientas clave</h4>
+                    <div class="etiquetas-herramientas">
+                        <span>Plan de marketing</span>
+                        <span>FODA</span>
+                        <span>KPIs</span>
+                    </div>
+                </div>
+                <button class="btn-detalles-modulo" onclick="detalles(8)">Ver detalles &rarr;</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="requisitos" class="seccion requisitos">
+        <h2>Requisitos de Preinscripción</h2>
+        <p class="subtitulo-seccion">Documentación requerida para el último año de formación:</p>
+
+        <ul>
+            <li><i class="fa-solid fa-circle-check"></i> Haber aprobado el 2do año de bachillerato en turismo.</li>
+            <li><i class="fa-solid fa-circle-check"></i> Presentar documento de identidad actualizado.</li>
+            <li><i class="fa-solid fa-circle-check"></i> Certificado de notas original de 1er y 2do año.</li>
+            <li><i class="fa-solid fa-circle-check"></i> Completar el formulario de preinscripción.</li>
+            <li><i class="fa-solid fa-circle-check"></i> Registro de solvencia académica y conductual.</li>
+        </ul>
+    </section>
+
+    <section id="preinscripcion" class="formulario">
+        <h2>Formulario de Preinscripción (3er Año)</h2>
+        <p>Completa tus datos para iniciar tu proceso de preinscripción.</p>
+
+        <form id="form-preinscripcion">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" placeholder="0000-0000" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" placeholder="correo@ejemplo.com" required>
+
+            <label for="colegio">Centro educativo de procedencia:</label>
+            <input type="text" id="colegio" placeholder="Nombre del centro educativo">
+
+            <label for="comentario">¿Cuál es tu proyección profesional al completar el 3er año?</label>
+            <textarea id="comentario" rows="4" placeholder="Escribe aquí tu respuesta"></textarea>
+
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i> Enviar Preinscripción</button>
+        </form>
+    </section>
+
+    <!-- Ventana Modal para Ver Detalles -->
+    <div id="ventana">
+        <div class="detalle">
+            <h2 id="titulo"></h2>
+            <p class="horas" id="horas"></p>
+
+            <h3>📚 Descripción del módulo</h3>
+            <p id="descripcion"></p>
+
+            <h3>🎯 Competencias</h3>
+            <p id="competencias"></p>
+
+            <h3>🛠️ Herramientas clave</h3>
+            <p id="herramientas"></p>
+
+            <h3>📋 Contenidos principales</h3>
+            <p id="contenido"></p>
+
+            <h3>💼 Aplicación profesional</h3>
+            <p id="trabajo"></p>
+
+            <button onclick="cerrar()">Cerrar</button>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Bachillerato Técnico Vocacional en Servicios Turísticos</h3>
+        <p>Información de preinscripción - Tercer Año</p>
+        <p>© 2026 Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/ap.js"></script>
+</body>
+</html>

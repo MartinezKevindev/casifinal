@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Bachillerato en Servicios Turísticos</title>
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Servicios <span>Turísticos</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="primer-año.html"><i class="fa-solid fa-school"></i> 1er Año</a></li>
+                <li><a href="segundo-año.html"><i class="fa-solid fa-school"></i> 2do Año</a></li>
+                <li><a href="tercer-año.html"><i class="fa-solid fa-school"></i> 3er Año</a></li>
+                <li><a href="Galeria.html"><i class="fa-solid fa-images"></i> Galería</a></li>
+                <li><a href="contactanos.html" class="active"><i class="fa-solid fa-phone"></i> Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero hero-contacto">
+        <h2><i class="fa-solid fa-paper-plane"></i> ¡Ponte en Contacto con Nosotros!</h2>
+        <p>¿Tienes dudas sobre el proceso de admisión o los módulos de Servicios Turísticos? Estamos listos para atenderte.</p>
+    </section>
+
+    <main class="contacto-container">
+        
+        <div class="tarjetas-contacto">
+            <div class="tarjeta-info">
+                <div class="icono-box red">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h3>Ubicación</h3>
+                <p><strong>INFRAMEN</strong></p>
+                <p>Instituto Nacional General Francisco Menéndez</p>
+                <p>San Salvador, El Salvador</p>
+            </div>
+
+            <div class="tarjeta-info">
+                <div class="icono-box red">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <h3>Correo Electrónico</h3>
+                <p>direccioninframen11540@gmail.com</p>
+            </div>
+
+            <div class="tarjeta-info">
+                <div class="icono-box yellow">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3>Horarios de Atención</h3>
+                <p><strong>Mañana:</strong> 7:00 A.M. - 11:30 A.M</p>
+                <p><strong>Tarde:</strong> 1:00 P.M. - 5:50 P.M</p>
+            </div>
+        </div>
+
+        <div class="formulario-card">
+            <div class="form-header">
+                <h3><i class="fa-solid fa-envelope"></i> Envíanos un Mensaje Directo</h3>
+                <p>Completa los datos y nos comunicaremos contigo a la brevedad.</p>
+            </div>
+
+            <form id="form-contacto">
+                <div class="input-group">
+                    <label for="nombre"><i class="fa-solid fa-user"></i> Nombre Completo</label>
+                    <input type="text" id="nombre" placeholder="Ej. Edwin Eliseo Reyes Galan" required>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="correo"><i class="fa-solid fa-at"></i> Correo Electrónico</label>
+                        <input type="email" id="correo" placeholder="correo@ejemplo.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="telefono"><i class="fa-solid fa-phone"></i> Teléfono</label>
+                        <input type="tel" id="telefono" placeholder="0000-0000" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="asunto"><i class="fa-solid fa-bookmark"></i> Asunto</label>
+                    <select id="asunto" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="admision">Información de Preinscripción / Admisión</option>
+                        <option value="modulos">Preguntas sobre Módulos Técnicos</option>
+                        <option value="visita">Solicitud de Visita Guiada</option>
+                        <option value="otro">Otro Motivo</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="mensaje"><i class="fa-solid fa-comment"></i> Mensaje</label>
+                    <textarea id="mensaje" rows="5" placeholder="Escribe tu consulta o mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">
+                    <span>Enviar Mensaje</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        
+        </div>
+
+        <!-- SECCIÓN LADO A LADO: MAPA (IZQUIERDA) Y DATOS + REDES (DERECHA) -->
+        <section class="seccion-info-inframen">
+            <!-- COLUMNA IZQUIERDA: MAPA -->
+            <div class="columna-mapa">
+                <div class="encabezado-mapa">
+                    <i class="fa-solid fa-compass fa-spin"></i>
+                    <span>¡ENCUÉNTRANOS AQUÍ!</span>
+                    <small>Instalaciones del INFRAMEN</small>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d755.898314546252!2d-89.18098758165299!3d13.712204042424313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2ssv!4v1790343463133!5m2!1ses-419!2ssv" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+
+            <!-- COLUMNA DERECHA: DIRECCIÓN, TELÉFONOS Y REDES -->
+            <div class="columna-datos">
+                <div class="bloque-info">
+                    <h3>Ubicación</h3>
+                    <p class="txt-ubicacion">20 Avenida Norte y 29 Calle Oriente, Colonia Atlacatl.</p>
+                </div>
+
+                <div class="bloque-info">
+                    <h3>Teléfonos de Contacto</h3>
+                    
+                    <div class="fila-contacto">
+                        <span>Dirección</span>
+                        <a class="btn-tel">7862-0544</a>
+                    </div>
+
+                    <div class="fila-contacto">
+                        <span>Sub-Dirección Matutina</span>
+                        <a  class="btn-tel">7601-4263</a>
+                    </div>
+
+                    <div class="fila-contacto">
+                        <span>Sub-Dirección Vespertina</span>
+                        <a class="btn-tel">7601-4904</a>
+                    </div>
+
+                    <div class="fila-contacto">
+                        <span>Registro Académico</span>
+                        <a class="btn-tel">7862-4041</a>
+                    </div>
+
+                    <div class="fila-contacto">
+                        <span>Servicios Turísticos</span>
+                        <a class="btn-tel">7862-5144</a>
+                    </div>
+
+                    <p class="nota-horario">Llamar en horas hábiles.</p>
+                </div>
+
+                <div class="bloque-info">
+                    <h3>Correo Electrónico</h3>
+                    <a class="link-correo">direccioninframen11540@gmail.com</a>
+                </div>
+
+                <!-- REDES SOCIALES OFICIALES DENTRO DE LA MISMA COLUMNA -->
+                <div class="banner-redes-sociales">
+                    <div class="titulo-siguenos">
+                        <h2>SÍGUENOS</h2>
+                        <span>REDES SOCIALES OFICIALES</span>
+                    </div>
+
+                    <div class="lista-redes">
+                        <a href="https://www.facebook.com/p/Instituto-Nacional-General-Francisco-Menendez-100090724989521/" target="_blank" class="tarjeta-red facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>Instituto Nacional General Francisco Menéndez</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/inframen_in/" target="_blank" class="tarjeta-red instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>@inframen_in</span>
+                        </a>
+
+                        <a href="https://www.tiktok.com/@institutonacional_gralfm" target="_blank" class="tarjeta-red tiktok">
+                            <i class="fa-brands fa-tiktok"></i>
+                            <span>@institutonacional_gralfm</span>
+                        </a>
+
+                        <a href="mailto:direccioninframen11540@gmail.com" class="tarjeta-red correo">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>direccioninframen11540@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>INSTITUTO NACIONAL GENERAL FRANCISCO MENÉNDEZ - Bachillerato Técnico Vocacional en Servicios Turísticos</p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

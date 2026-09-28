@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostelería y Turismo - 2do Año</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Servicios <span>Turísticos</span></h1>
+        </div>
+
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+            <a href="primer-año.html"><i class="fa-solid fa-school"></i> 1er Año</a>
+            <a href="segundo-año.html" class="active"><i class="fa-solid fa-school"></i> 2do Año</a>
+            <a href="tercer-año.html"><i class="fa-solid fa-school"></i> 3er Año</a>
+            <a href="Galeria.html"><i class="fa-solid fa-images"></i> Galería</a>
+            <a href="contactanos.html"><i class="fa-solid fa-phone"></i> Contáctanos</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido">
+            <h1>Segundo Año de Hostelería y Turismo</h1>
+            <p>Conoce la especialidad de Bachillerato Técnico Productivo en Servicios Turísticos en el INFRAMEN.</p>
+            <a href="#modulos" class="boton">Conocer más</a>
+        </div>
+    </section>
+
+    <section id="informacion" class="seccion info">
+        <h2>Información de la especialidad</h2>
+        <p class="subtitulo-seccion">Conoce los pilares fundamentales de esta carrera técnica.</p>
+
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3><i class="fa-solid fa-utensils"></i> Gastronomía & A&B</h3>
+                <p>Aprenderás técnicas culinarias nacionales e internacionales, inocuidad alimentaria y gestión de restaurantes.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3><i class="fa-solid fa-glass-cheers"></i> Eventos & Banquetería</h3>
+                <p>Dominarás la logística, montajes de mesa, etiqueta y protocolo para la organización de eventos masivos.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3><i class="fa-solid fa-chart-line"></i> Emprendimiento Turístico</h3>
+                <p>Desarrollarás competencias empresariales y de inglés técnico para liderar proyectos en el sector turístico.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="modulos" class="modulos">
+        <div class="titulo">
+            <h2>Módulos de Segundo Año</h2>
+            <p>Conoce la descripción, competencias y herramientas clave de cada módulo técnico.</p>
+        </div>
+
+        <div class="contenedor materias">
+
+            <!-- Módulo 0 -->
+            <div class="modulo">
+                <div class="badge">Orientación | 16 Horas (1 Sem.)</div>
+                <h3>Orientación Metodológica</h3>
+                <p class="descripcion">Aplicación de estrategias de aprendizaje autónomo y resolución de problemas bajo el enfoque de aprendizaje orientado a la acción.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Aplicar estrategias de aprendizaje autónomo y herramientas de pensamiento crítico para resolver problemas complejos del entorno turístico.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Aprender haciendo</span>
+                    <span>Proyectos</span>
+                    <span>Marca personal</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(0)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 2.1 -->
+            <div class="modulo">
+                <div class="badge">Módulo 2.1 | 80 Horas (4 UV)</div>
+                <h3>Organización de A&B</h3>
+                <p class="descripcion">Organización de procesos y logística de trabajo en servicios de alimentos y bebidas respetando la normativa legal e higiénica.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Organizar los procesos y logística operativa en establecimientos de alimentos y bebidas garantizando la satisfacción del cliente.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Organigramas</span>
+                    <span>Inventario PEPS</span>
+                    <span>Seguridad A&B</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(1)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 2.2 -->
+            <div class="modulo">
+                <div class="badge">Módulo 2.2 | 80 Horas (4 UV)</div>
+                <h3>Gastronomía Salvadoreña</h3>
+                <p class="descripcion">Elaboración de platillos y bebidas típicas salvadoreñas promoviendo el valor cultural y el turismo gastronómico nacional.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Aplicar procesos de elaboración de platillos y bebidas autóctonas según el contexto cultural y tradiciones nacionales.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Cocina autóctona</span>
+                    <span>Inocuidad</span>
+                    <span>Recetas típicas</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(2)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 2.3 -->
+            <div class="modulo">
+                <div class="badge">Módulo 2.3 | 144 Horas (7 UV)</div>
+                <h3>Preparación de Alimentos y Bebidas</h3>
+                <p class="descripcion">Técnicas culinarias avanzadas, recetas de cocina internacional y buenas prácticas de inocuidad alimentaria.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Realizar procesos de preparación de alimentos e insumos inocuos aplicando técnicas culinarias internacionales y fichas técnicas.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Cocina internacional</span>
+                    <span>Mise en Place</span>
+                    <span>Cortes técnicos</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(3)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 2.4 -->
+            <div class="modulo">
+                <div class="badge">Módulo 2.4 | 80 Horas (4 UV)</div>
+                <h3>Montaje de Eventos y Banquetes</h3>
+                <p class="descripcion">Planificación, montaje de salones y servicio protocolario de banquetes optimizando recursos y tiempos de atención.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Planificar y coordinar el montaje de salones y servicio de banquetes cumpliendo estándares de protocolo y etiqueta.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Tipos de montaje</span>
+                    <span>Cristalería</span>
+                    <span>Etiqueta y mesa</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(4)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 2.5 -->
+            <div class="modulo">
+                <div class="badge">Módulo 2.5 | 128 Horas (6 UV)</div>
+                <h3>Panadería y Pastelería</h3>
+                <p class="descripcion">Formulación, amasado, técnicas de horneado y decoración para productos de panadería y repostería.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Elaborar productos de panadería y repostería clásica y avanzada siguiendo formulaciones estandarizadas y control de calidad.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Masas fermentadas</span>
+                    <span>Horneado</span>
+                    <span>Repostería</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(5)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 2.6 -->
+            <div class="modulo">
+                <div class="badge">Módulo 2.6 | 48 Horas (2 UV)</div>
+                <h3>Inglés Técnico en A&B</h3>
+                <p class="descripcion">Comunicación técnica en idioma inglés para la atención de comensales, toma de comandes y resolución de consultas.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Comunicarse con fluidez en idioma inglés técnico en entornos de atención al cliente y servicios gastronómicos.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Vocabulario A&B</span>
+                    <span>Comandas en inglés</span>
+                    <span>Customer Service</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(6)">Ver detalles &rarr;</button>
+            </div>
+
+            <!-- Módulo 2.7 -->
+            <div class="modulo">
+                <div class="badge">Módulo 2.7 | 64 Horas (3 UV)</div>
+                <h3>Planes de Negocio Turísticos</h3>
+                <p class="descripcion">Diseño y estructuración de modelos de negocio viables e innovadores orientados al desarrollo turístico.</p>
+                <h4>Competencias</h4>
+                <p class="competencia">Estructurar planes de negocio viables e innovadores enfocados en la industria turística y gastronómica.</p>
+                <h4>Herramientas clave</h4>
+                <div class="etiquetas">
+                    <span>Modelo Canvas</span>
+                    <span>Estudio de Mercado</span>
+                    <span>Plan Financiero</span>
+                </div>
+                <button class="btn-detalles" onclick="detalles(7)">Ver detalles &rarr;</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="requisitos" class="requisitos">
+        <h2>Requisitos de Ingreso</h2>
+        <p>Para cursar el segundo año de esta especialidad en el INFRAMEN debes cumplir con los siguientes puntos:</p>
+        <ul>
+            <li><i class="fa-solid fa-check"></i> Haber aprobado satisfactoriamente el 1.er Año del Bachillerato Técnico.</li>
+            <li><i class="fa-solid fa-check"></i> Presentar la documentación académica y matrícula oficial.</li>
+            <li><i class="fa-solid fa-check"></i> Mantener disposición para prácticas de taller culinario y de campo.</li>
+            <li><i class="fa-solid fa-check"></i> Cumplir con el reglamento interno de uniforme y normas de higiene institucional.</li>
+        </ul>
+    </section>
+
+    <!-- Modal para Detalles -->
+    <!-- Modal para Detalles -->
+    <div id="ventana">
+        <div class="detalle">
+            <h2 id="titulo"></h2>
+            <p class="horas" id="horas"></p>
+
+            <h3>📚 Descripción del módulo</h3>
+            <p id="descripcion"></p>
+
+            <h3>🎯 Competencias</h3>
+            <p id="competencias"></p>
+
+            <h3>🛠️ Herramientas clave</h3>
+            <p id="herramientas"></p>
+
+            <h3>📋 Contenidos principales</h3>
+            <p id="contenido"></p>
+
+            <h3>💼 Aplicación profesional y evaluación</h3>
+            <p id="trabajo"></p>
+
+            <button onclick="cerrar()">Cerrar</button>
+        </div>
+    </div>
+    <section id="preinscripcion" class="formulario">
+        <h2>Formulario de Preinscripción</h2>
+        <p>Llena tus datos para iniciar el proceso de ingreso.</p>
+        <form>
+            <label>Nombre Completo</label>
+            <input type="text" placeholder="Nombre completo" required>
+
+            <label>Correo Electrónico</label>
+            <input type="email" placeholder="Correo electrónico" required>
+
+            <label>Teléfono</label>
+            <input type="tel" placeholder="Teléfono" required>
+
+            <label>Mensaje</label>
+            <textarea placeholder="¿Por qué deseas estudiar Turismo?"></textarea>
+
+            <button type="submit">Enviar Preinscripción</button>
+        </form>
+    </section>
+    <footer>
+        <h3>🎓 Hostelería y Turismo</h3>
+        <p>Segundo Año de Bachillerato Técnico Productivo en Servicios Turísticos</p>
+        <p>INFRAMEN</p>
+        <p>© 2026</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
